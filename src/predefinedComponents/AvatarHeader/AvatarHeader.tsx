@@ -26,7 +26,6 @@ export interface AvatarHeaderProps extends IconProps, SharedPredefinedHeaderProp
   image: ImageSourcePropType;
   subtitle?: string;
   title?: string;
-}
 
 type State = {
   headerLayout: {
@@ -230,7 +229,7 @@ class AvatarHeader extends React.Component<AvatarHeaderProps, State> {
       refreshControl,
       onMomentumScrollEnd,
       onMomentumScrollBegin,
-      horizontalScrollBounces,
+      horizontalScrollBounces
     } = this.props;
 
     return (

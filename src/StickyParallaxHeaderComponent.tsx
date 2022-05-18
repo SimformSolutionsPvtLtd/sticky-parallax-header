@@ -409,7 +409,7 @@ class StickyParallaxHeaderComponent extends Component<StickyParallaxHeaderProps,
       decelerationRate,
       onMomentumScrollEnd,
       onMomentumScrollBegin,
-      horizontalScrollBounces,
+      horizontalScrollBounces
     } = this.props;
     const { currentPage } = this.state;
     const scrollHeight = Math.max(parallaxHeight, headerHeight * 2);
@@ -550,7 +550,7 @@ class StickyParallaxHeaderComponent extends Component<StickyParallaxHeaderProps,
     decelerationRate: 'fast',
     onMomentumScrollEnd: undefined,
     onMomentumScrollBegin: undefined,
-    tabUnderlineColor: colors.white,
+    tabUnderlineColor: colors.white
   };
 }
 

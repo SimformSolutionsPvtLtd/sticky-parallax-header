@@ -199,7 +199,7 @@ class TabbedHeader extends React.Component<TabbedHeaderProps, State> {
       tabsContainerStyle,
       tabUnderlineColor,
       tabsContainerHorizontalPadding,
-      horizontalScrollBounces,
+      horizontalScrollBounces
     } = this.props;
 
     const tabsContainerBgColor = tabsContainerBackgroundColor ?? backgroundColor;

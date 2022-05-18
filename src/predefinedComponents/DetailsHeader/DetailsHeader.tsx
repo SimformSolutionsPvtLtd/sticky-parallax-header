@@ -182,7 +182,7 @@ class DetailsHeader extends React.Component<DetailsHeaderProps, State> {
       contentContainerStyles,
       keyboardShouldPersistTaps,
       refreshControl,
-      horizontalScrollBounces,
+      horizontalScrollBounces
     } = this.props;
 
     return (
